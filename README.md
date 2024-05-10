@@ -1,1 +1,1 @@
-# shoplite-eccomerce
+# shoplite-ecommerce
