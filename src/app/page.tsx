@@ -1,3 +1,4 @@
+import Banner from "@/components/Banner";
 import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
 import Newsletter from "@/components/NewsLetter";
@@ -8,6 +9,7 @@ export default function Home() {
     <main>
       <OfferBar />
       <NavBar />
+      <Banner />
       <Newsletter />
       <Footer />
     </main>
