@@ -1,33 +1,34 @@
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
-import BannerImage from "../../public/images/Banner Image.png";
+import Link from "next/link";
+import Image from "next/image";
+
+import FirstBannerImage from "../../public/images/Banner Image/First Banner Image.png";
 import { RightArrow } from "./Icons";
 
 const Banner = () => {
   return (
-    <div className="flex bg-light-blue">
-      <div>
-        <Image src={BannerImage} height={532} alt="Banner Image" />
-      </div>
-      <div className="py-32 px-20">
-        <div className="text-blue mb-3">SALE UPTO 30% OFF</div>
-        <div className="font-semibold text-2xl">
-          HUNDREDS of <br />
-          New lower prices !
+    <div className="grid grid-rows-3 grid-flow-col gap-4 items-center justify-center">
+      {/* Living Room Section */}
+      <div className="row-span-3 ... relative ">
+        <div className="font-medium text-3xl absolute top-8 left-14">
+          Living Room
         </div>
-        <p className="mt-2 mb-3 ">
-          Its more affordable than ever to give every <br /> room in your home a
-          stylish makeover
-        </p>
-        <div className=" relative ">
-          <Link className="flex text-sm" href="/">
+        <div className="w-[548px]">
+          <Image src={FirstBannerImage} alt="Banner Image" />
+        </div>
+        <div className="absolute top-20 left-14">
+          <Link className="flex text-sm relative" href="/">
             Shop Now&nbsp;
             <RightArrow />
             <span className="absolute top-5 left-0 border w-[6.3em]"></span>
           </Link>
         </div>
       </div>
+      {/* Living Room Section Ends */}
+      {/* Bedroom Section */}
+      <div className="col-span-2 ... "></div>
+      {/* Kitchen Section */}
+      <div className="row-span-2 col-span-2 ...">03</div>
     </div>
   );
 };
