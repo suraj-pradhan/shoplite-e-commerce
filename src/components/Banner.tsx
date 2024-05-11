@@ -10,7 +10,7 @@ const Banner = () => {
       <div>
         <Image src={BannerImage} height={532} alt="Banner Image" />
       </div>
-      <div className="pt-20 px-20">
+      <div className="py-32 px-20">
         <div className="text-blue mb-3">SALE UPTO 30% OFF</div>
         <div className="font-semibold text-2xl">
           HUNDREDS of <br />
