@@ -1,12 +1,20 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { FacebookIcon, InstgramIcon, YoutubeIcon } from "./Icons";
+import BrandLogoWhite from "../../public/images/Brand Logo White.png";
 
 const Footer = () => {
   return (
     <footer className=" flex flex-col text-white bg-dark-grey px-36 text-sm">
       <div className="flex justify-between gap-x-12 pb-12 pt-14 ">
-        <span>Shoplite | Gift & Decoration Store</span>
+        <div className="flex items-center gap-x-6">
+          <span>
+            <Image src={BrandLogoWhite} height={17} alt="Barnd Logo White" />
+          </span>
+          <span>|</span>
+          <span>Gift & Decoration Store</span>
+        </div>
         <span className="flex gap-x-8">
           <Link href="/"> Home</Link>
           <Link href="/"> Shop</Link>
