@@ -9,7 +9,7 @@ const Footer = () => {
         <span>Shoplite | Gift & Decoration Store</span>
         <span className="flex gap-x-8">
           <Link href="/"> Home</Link>
-          <Link href="/"> Shop</Link>
+          <Link href="/shop"> Shop</Link>
           <Link href="/"> Product</Link>
           <Link href="/"> Blog</Link>
           <Link href="/"> Contact Us</Link>
@@ -24,9 +24,15 @@ const Footer = () => {
         </div>
 
         <div className="flex gap-x-4">
-          <InstgramIcon />
-          <FacebookIcon />
-          <YoutubeIcon />
+          <Link href="https://www.instagram.com/" target={"_blank"}>
+            <InstgramIcon />
+          </Link>
+          <Link href="https://www.facebook.com/" target={"_blank"}>
+            <FacebookIcon />
+          </Link>
+          <Link href="https://www.youtube.com/" target={"_blank"}>
+            <YoutubeIcon />
+          </Link>
         </div>
       </div>
     </footer>
