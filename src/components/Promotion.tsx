@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import BannerImage from "../../public/images/Banner Image.png";
-import { RightArrow } from "./Icons";
+import { BlackArrowRight } from "./Icons";
 
 const Promotion = () => {
   return (
@@ -23,7 +23,7 @@ const Promotion = () => {
         <div className=" relative ">
           <Link className="flex text-sm" href="/">
             Shop Now&nbsp;
-            <RightArrow />
+            <BlackArrowRight />
             <span className="absolute top-5 left-0 border w-[6.3em]"></span>
           </Link>
         </div>
