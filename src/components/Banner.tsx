@@ -21,7 +21,7 @@ const Banner = () => {
           stylish makeover
         </p>
         <div className=" relative ">
-          <Link className="flex text-sm" href="http://">
+          <Link className="flex text-sm" href="/">
             Shop Now&nbsp;
             <RightArrow />
             <span className="absolute top-5 left-0 border w-[6.3em]"></span>

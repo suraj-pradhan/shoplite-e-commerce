@@ -9,7 +9,7 @@ const Footer = () => {
         <span>Shoplite | Gift & Decoration Store</span>
         <span className="flex gap-x-8">
           <Link href="/"> Home</Link>
-          <Link href="/shop"> Shop</Link>
+          <Link href="/"> Shop</Link>
           <Link href="/"> Product</Link>
           <Link href="/"> Blog</Link>
           <Link href="/"> Contact Us</Link>
