@@ -4,9 +4,9 @@ import { FacebookIcon, InstgramIcon, YoutubeIcon } from "./Icons";
 
 const Footer = () => {
   return (
-    <footer className=" flex flex-col  h-52 text-white bg-dark-grey px-36 text-sm">
-      <div className="flex justify-between gap-x-12 py-12 ">
-        <span>Shoprite | Gift & Decoration Store</span>
+    <footer className=" flex flex-col text-white bg-dark-grey px-36 text-sm">
+      <div className="flex justify-between gap-x-12 pb-12 pt-14 ">
+        <span>Shoplite | Gift & Decoration Store</span>
         <span className="flex gap-x-8">
           <Link href="/"> Home</Link>
           <Link href="/"> Shop</Link>
@@ -16,7 +16,7 @@ const Footer = () => {
         </span>
       </div>
       <hr />
-      <div className="flex justify-between gap-x-12 text-xs py-8 ">
+      <div className="flex justify-between gap-x-12 text-xs pt-5 pb-8 ">
         <div className="flex gap-x-12">
           <span>Copyright © 2024 Suraj Pradhan. All rights reserved</span>
           <span>Privacy Policy</span>
