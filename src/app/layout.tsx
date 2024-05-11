@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Shoprite | Furniture Store",
+  title: "Shoplite | Gift & Decoration Store",
   description: "E-Commerce Store",
 };
 

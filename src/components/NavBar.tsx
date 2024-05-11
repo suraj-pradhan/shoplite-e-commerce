@@ -5,7 +5,7 @@ import { CartIcon, ProfileIcon, SearchIcon } from "./Icons";
 const NavBar = () => {
   return (
     <div className="flex justify-around py-6">
-      <nav className="">SHOPRITE</nav>
+      <nav className="">SHOPLITE</nav>
       <span className="flex gap-x-8">
         <Link href="/"> Home</Link>
         <Link href="/"> Shop</Link>
