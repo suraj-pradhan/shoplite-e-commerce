@@ -13,9 +13,15 @@ const NavBar = () => {
         <Link href="/"> Contact Us</Link>
       </span>
       <div className="flex gap-x-4">
-        <SearchIcon />
-        <ProfileIcon />
-        <CartIcon />
+        <Link href="/">
+          <SearchIcon />
+        </Link>
+        <Link href="/">
+          <ProfileIcon />
+        </Link>
+        <Link href="/">
+          <CartIcon />
+        </Link>
       </div>
     </div>
   );
