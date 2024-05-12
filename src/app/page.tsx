@@ -14,7 +14,7 @@ export default function Home() {
       <Banner />
       <Values />
       <Promotion />
-      <Newsletter />
+      {/* <Newsletter /> */}
       <Footer />
     </main>
   );
