@@ -27,7 +27,7 @@ const Footer = () => {
       <div className="flex xs:flex-col justify-between gap-x-12 text-xs pt-5 pb-12 ">
         <div className="flex xs:gap-6 xs:flex-col xs:items-center gap-x-10 xs:order-2">
           <span className="xs:order-3">
-            Copyright © 2024 Suraj Pradhan. All Rights Reserved
+            Copyright © 2024 Shoplite. All Rights Reserved
           </span>
 
           <div className="flex gap-4">
