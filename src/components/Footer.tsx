@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className=" flex flex-col text-white bg-dark-grey px-28 xs:px-10 text-sm">
       <div className="flex xs:flex-col justify-between gap-x-12 pb-16 xs:pb-8 pt-20 xs:pt-12 ">
-        <div className="flex xs:flex-col items-center ">
+        <div className="flex xs:flex-col items-center gap-y-3 ">
           <Link href="/">
             <Image src={BrandLogoWhite} height={17} alt="Brand Logo White" />
           </Link>
