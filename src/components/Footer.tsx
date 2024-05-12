@@ -12,8 +12,7 @@ const Footer = () => {
           <Link href="/">
             <Image src={BrandLogoWhite} height={17} alt="Brand Logo White" />
           </Link>
-          <span className="border-r h-8 xs:collapse px-6"></span>
-          <span className="collapse xs:visible xs:border-t xs:w-8 xs:my-5"></span>
+          <span className="border-r h-8 px-6 xs:px-0 xs:origin-center xs:rotate-90 "></span>
           <span className="px-10">Gift & Decoration Store</span>
         </div>
         <span className="flex xs:flex-col xs:items-center xs:pt-6 gap-4 gap-x-10">
