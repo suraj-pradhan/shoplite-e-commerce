@@ -7,7 +7,7 @@ import BrandImage from "../../public/images/Brand Logo.png";
 const NavBar = () => {
   return (
     <div className="flex justify-around items-center py-6">
-      <nav className="">
+      <nav>
         <Image src={BrandImage} height={20} alt="Brand Image" />
       </nav>
       <span className="flex gap-x-8">
