@@ -8,7 +8,12 @@ const Promotion = () => {
   return (
     <div className="flex bg-light-blue">
       <div>
-        <Image src={BannerImage} height={532} alt="Banner Image" />
+        <Image
+          src={BannerImage}
+          height={532}
+          loading="lazy"
+          alt="Banner Image"
+        />
       </div>
       <div className="py-32 px-20">
         <div className="text-blue mb-3">SALE UPTO 30% OFF</div>

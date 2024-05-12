@@ -7,15 +7,15 @@ import BrandLogoWhite from "../../public/images/Brand Logo White.png";
 const Footer = () => {
   return (
     <footer className=" flex flex-col text-white bg-dark-grey px-36 text-sm">
-      <div className="flex justify-between gap-x-12 pb-12 pt-14 ">
-        <div className="flex items-center gap-x-6">
+      <div className="flex justify-between gap-x-12 pb-16 pt-20 ">
+        <div className="flex items-center gap-x-10">
           <span>
-            <Image src={BrandLogoWhite} height={17} alt="Barnd Logo White" />
+            <Image src={BrandLogoWhite} height={17} alt="Brand Logo White" />
           </span>
           <span>|</span>
           <span>Gift & Decoration Store</span>
         </div>
-        <span className="flex gap-x-8">
+        <span className="flex gap-x-10">
           <Link href="/"> Home</Link>
           <Link href="/"> Shop</Link>
           <Link href="/"> Product</Link>
@@ -24,14 +24,14 @@ const Footer = () => {
         </span>
       </div>
       <hr />
-      <div className="flex justify-between gap-x-12 text-xs pt-5 pb-8 ">
-        <div className="flex gap-x-12">
+      <div className="flex justify-between gap-x-12 text-xs pt-5 pb-12 ">
+        <div className="flex gap-x-10">
           <span>Copyright © 2024 Suraj Pradhan. All rights reserved</span>
-          <span>Privacy Policy</span>
-          <span>Terms of Use</span>
+          <span className="font-bold">Privacy Policy</span>
+          <span className="font-bold">Terms of Use</span>
         </div>
 
-        <div className="flex gap-x-4">
+        <div className="flex gap-x-6">
           <Link href="https://www.instagram.com/" target={"_blank"}>
             <InstgramIcon />
           </Link>
