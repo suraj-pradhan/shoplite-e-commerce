@@ -7,7 +7,7 @@ import BrandLogoWhite from "../../public/images/Brand Logo White.png";
 const Footer = () => {
   return (
     <footer className=" flex flex-col text-white bg-dark-grey px-28 xs:px-10 text-sm">
-      <div className="flex xs:flex-col justify-between gap-x-12 pb-16 pt-20 ">
+      <div className="flex xs:flex-col justify-between gap-x-12 pb-16 xs:pb-8 pt-20 xs:pt-12 ">
         <div className="flex xs:flex-col items-center ">
           <Link href="/">
             <Image src={BrandLogoWhite} height={17} alt="Brand Logo White" />
@@ -16,7 +16,7 @@ const Footer = () => {
           <span className="collapse xs:visible xs:border-t xs:w-8 xs:my-5"></span>
           <span className="px-10">Gift & Decoration Store</span>
         </div>
-        <span className="flex xs:flex-col xs:items-center xs:pt-8 xs:pb-4 gap-4 gap-x-10">
+        <span className="flex xs:flex-col xs:items-center xs:pt-6 gap-4 gap-x-10">
           <Link href="/"> Home</Link>
           <Link href="/"> Shop</Link>
           <Link href="/"> Product</Link>
@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex gap-x-6 xs:justify-center xs:pb-6 ">
+        <div className="flex gap-x-6 xs:justify-center xs:pb-6 xs:pt-3 ">
           <Link href="https://www.instagram.com/" target={"_blank"}>
             <InstgramIcon />
           </Link>
