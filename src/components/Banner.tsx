@@ -16,7 +16,7 @@ const Banner = () => {
         </div>
 
         <div className="w-[548px]">
-          <Image src={FirstBannerImage} alt="Banner Image" />
+          <Image src={FirstBannerImage} loading="lazy" alt="Banner Image" />
         </div>
 
         <div className="absolute top-20 left-14">
@@ -51,7 +51,11 @@ const Banner = () => {
           Kitchen
         </div>
         <div className="w-[548px]">
-          <Image src={KitchenBannerImage} alt="Kitchen Banner Image" />
+          <Image
+            src={KitchenBannerImage}
+            loading="lazy"
+            alt="Kitchen Banner Image"
+          />
         </div>
         <div className="absolute bottom-20 left-14">
           <Link className="flex text-sm relative" href="/">

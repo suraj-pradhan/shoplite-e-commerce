@@ -8,14 +8,15 @@ const Footer = () => {
   return (
     <footer className=" flex flex-col text-white bg-dark-grey px-28 xs:px-10 text-sm">
       <div className="flex xs:flex-col justify-between gap-x-12 pb-16 pt-20 ">
-        <div className="flex items-center gap-x-10">
+        <div className="flex xs:flex-col items-center ">
           <Link href="/">
             <Image src={BrandLogoWhite} height={17} alt="Brand Logo White" />
           </Link>
-          <span>|</span>
-          <span>Gift & Decoration Store</span>
+          <span className="border-r h-8 xs:collapse px-6"></span>
+          <span className="collapse xs:visible xs:border-t xs:w-8 xs:my-5"></span>
+          <span className="px-10">Gift & Decoration Store</span>
         </div>
-        <span className="flex xs:flex-col xs:items-center gap-x-10">
+        <span className="flex xs:flex-col xs:items-center xs:pt-8 xs:pb-4 gap-4 gap-x-10">
           <Link href="/"> Home</Link>
           <Link href="/"> Shop</Link>
           <Link href="/"> Product</Link>

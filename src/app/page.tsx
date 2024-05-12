@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <main>
       <OfferBar />
-      <NavBar />
-      <Banner />
-      <Values />
-      <Promotion />
+      {/* <NavBar /> */}
+      {/* <Banner /> */}
+      {/* <Values /> */}
+      {/* <Promotion /> */}
       {/* <Newsletter /> */}
       <Footer />
     </main>
