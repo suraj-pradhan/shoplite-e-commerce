@@ -1,20 +1,34 @@
+"use client";
 import React from "react";
 import Link from "next/link";
 import { CartIcon, ProfileIcon, SearchIcon } from "./Icons";
 import Image from "next/image";
 import BrandImage from "../../public/images/Brand Logo.png";
 
-const NavBar = () => {
+import { usePathname } from "next/navigation";
+
+export default function NavBar() {
+  const CustomLink = ({ href = " ", title = " " }) => {
+    const pathname = usePathname();
+    const isActive = pathname === href;
+
+    return (
+      <Link href={href}>
+        <span className={`${isActive ? "font-semibold" : ""}`}>{title}</span>
+      </Link>
+    );
+  };
+
   return (
     <div className="flex justify-around items-center py-6">
       <nav>
         <Image src={BrandImage} height={20} alt="Brand Image" />
       </nav>
       <span className="flex gap-x-8">
-        <Link href="/"> Home</Link>
-        <Link href="/"> Shop</Link>
-        <Link href="/"> Product</Link>
-        <Link href="/"> Contact Us</Link>
+        <CustomLink href="/" title="Home" />
+        <CustomLink href="/shop" title="Shop" />
+        <CustomLink href="/product" title="Product" />
+        <CustomLink href="/contact" title="Contact Us" />
       </span>
       <div className="flex gap-x-4">
         <Link href="/">
@@ -29,6 +43,4 @@ const NavBar = () => {
       </div>
     </div>
   );
-};
-
-export default NavBar;
+}
