@@ -27,7 +27,7 @@ const Promotion = () => {
         </p>
         <div className=" relative ">
           <Link className="flex text-sm" href="/">
-            Shop Now&nbsp;
+            Shop Now &nbsp;
             <BlackArrowRight />
             <span className="absolute top-5 left-0 border w-[6.3em]"></span>
           </Link>

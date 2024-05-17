@@ -11,7 +11,7 @@ export default function Home() {
     <main>
       <OfferBar />
       {/* <NavBar /> */}
-      {/* <Banner /> */}
+      <Banner />
       {/* <Values /> */}
       {/* <Promotion /> */}
       {/* <Newsletter /> */}
