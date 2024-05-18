@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { CartIcon, ProfileIcon, SearchIcon } from "./Icons";
+import { CartIcon, HamburgerIcon, ProfileIcon, SearchIcon } from "./Icons";
 import Image from "next/image";
 import BrandImage from "../../public/images/Brand Logo.png";
 
@@ -21,18 +21,22 @@ export default function NavBar() {
 
   return (
     <div className="flex justify-around items-center py-6">
-      <nav>
+      <nav className="flex items-center gap-3">
+        <span className="hidden xs:block">
+          <HamburgerIcon />
+        </span>
         <Link href="/">
-          <Image src={BrandImage} priority height={20} alt="Brand Image" />
+          <span className="text-[28px] font-semibold xs:text-xl">SHOP</span>
+          <span className="text-[28px] xs:text-xl ">LITE</span>
         </Link>
       </nav>
-      <span className="flex gap-x-8">
+      <nav className="flex gap-x-8 xs:hidden">
         <CustomLink href="/" title="Home" />
         <CustomLink href="/shop" title="Shop" />
-        <CustomLink href="/product" title="Product" />
+        {/* <CustomLink href="/product" title="Product" /> */}
         <CustomLink href="/contact" title="Contact Us" />
-      </span>
-      <div className="flex gap-x-4">
+      </nav>
+      <div className="flex gap-x-4 xs:invisible">
         <Link href="/">
           <SearchIcon />
         </Link>
@@ -42,6 +46,9 @@ export default function NavBar() {
         <Link href="/">
           <CartIcon />
         </Link>
+      </div>
+      <div className="hidden xs:block ">
+        <CartIcon />
       </div>
     </div>
   );

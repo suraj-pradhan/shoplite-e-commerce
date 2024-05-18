@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
         <span className="flex xs:flex-col xs:items-center xs:pt-6 gap-4 gap-x-10 lg:gap-x-6 ">
           <Link href="/"> Home</Link>
-          <Link href="/"> Shop</Link>
+          <Link href="/shop"> Shop</Link>
           <Link href="/"> Product</Link>
           <Link href="/"> Blog</Link>
           <Link href="/"> Contact Us</Link>
