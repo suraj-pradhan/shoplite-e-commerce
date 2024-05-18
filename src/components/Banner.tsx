@@ -10,10 +10,10 @@ const Banner = () => {
   return (
     <div className="flex items-center justify-center gap-6 xs:flex-col py-5 xs:px-4">
       <div className="relative">
-        <div className="font-medium text-3xl xs:text-xl absolute top-8 left-14">
+        <div className="font-medium text-3xl xs:text-xl absolute top-8 left-14 xs:left-8">
           Living Room
         </div>
-        <div className="absolute left-14 top-20 xs:top-16 ">
+        <div className="absolute left-14 xs:left-8 top-20 xs:top-16 ">
           <Link className="flex text-sm relative" href="/">
             Shop Now&nbsp;
             <BlackArrowRight />
@@ -33,10 +33,10 @@ const Banner = () => {
       <div>
         {/* Bedroom Section */}
         <div className="relative ">
-          <div className="font-medium text-3xl xs:text-xl absolute bottom-20 left-14">
+          <div className="font-medium text-3xl xs:text-xl absolute bottom-20 left-14 xs:left-8">
             Bedroom
           </div>
-          <div className="absolute left-14 bottom-12 xs:bottom-14 ">
+          <div className="absolute left-14 xs:left-8 bottom-12 xs:bottom-14 ">
             <Link className="flex text-sm relative" href="/">
               Shop Now&nbsp;
               <BlackArrowRight />
@@ -55,10 +55,10 @@ const Banner = () => {
 
         {/* Kitchen Section */}
         <div className="mt-6 relative">
-          <div className="font-medium text-3xl xs:text-xl absolute bottom-20 left-14">
+          <div className="font-medium text-3xl xs:text-xl absolute bottom-20 left-14 xs:left-8">
             Kitchen
           </div>
-          <div className="absolute left-14 bottom-12 xs:bottom-14">
+          <div className="absolute left-14 xs:left-8 bottom-12 xs:bottom-14">
             <Link className="flex text-sm relative" href="/">
               Shop Now&nbsp;
               <BlackArrowRight />
