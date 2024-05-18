@@ -22,7 +22,9 @@ export default function NavBar() {
   return (
     <div className="flex justify-around items-center py-6">
       <nav>
-        <Image src={BrandImage} priority height={20} alt="Brand Image" />
+        <Link href="/">
+          <Image src={BrandImage} priority height={20} alt="Brand Image" />
+        </Link>
       </nav>
       <span className="flex gap-x-8">
         <CustomLink href="/" title="Home" />
