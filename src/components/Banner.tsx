@@ -24,7 +24,7 @@ const Banner = () => {
           <Image
             src={FirstBannerImage}
             width={548}
-            loading="lazy"
+            priority
             alt="Banner Image"
           />
         </div>
@@ -47,6 +47,7 @@ const Banner = () => {
             <Image
               src={BedroomBannerImage}
               width={548}
+              priority
               alt="Bedroom Banner Image"
             />
           </div>
@@ -68,7 +69,7 @@ const Banner = () => {
             <Image
               width={548}
               src={KitchenBannerImage}
-              loading="lazy"
+              priority
               alt="Kitchen Banner Image"
             />
           </div>

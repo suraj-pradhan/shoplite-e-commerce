@@ -6,16 +6,16 @@ import BrandLogoWhite from "../../public/images/Brand Logo White.png";
 
 const Footer = () => {
   return (
-    <footer className=" flex flex-col text-white bg-dark-grey px-28 xs:px-10 text-sm">
-      <div className="flex xs:flex-col justify-between gap-x-12 pb-16 xs:pb-8 pt-20 xs:pt-12 ">
+    <footer className=" flex flex-col text-white bg-dark-grey px-28 xs:px-10 lg:px-8 text-sm">
+      <div className="flex xs:flex-col justify-between items-center pb-16 xs:pb-8 pt-20 xs:pt-12 ">
         <div className="flex xs:flex-col items-center gap-y-3 ">
           <Link href="/">
             <Image src={BrandLogoWhite} height={17} alt="Brand Logo White" />
           </Link>
-          <span className="border-r h-8 px-6 xs:px-0 xs:origin-center xs:rotate-90 "></span>
-          <span className="px-10">Gift & Decoration Store</span>
+          <span className="border-r h-8 px-6 xs:px-0 lg:px-2 xs:origin-center xs:rotate-90 "></span>
+          <span className="px-10 lg:px-4">Gift & Decoration Store</span>
         </div>
-        <span className="flex xs:flex-col xs:items-center xs:pt-6 gap-4 gap-x-10">
+        <span className="flex xs:flex-col xs:items-center xs:pt-6 gap-4 gap-x-10 lg:gap-x-6 ">
           <Link href="/"> Home</Link>
           <Link href="/"> Shop</Link>
           <Link href="/"> Product</Link>
@@ -24,7 +24,7 @@ const Footer = () => {
         </span>
       </div>
       <hr />
-      <div className="flex xs:flex-col justify-between gap-x-12 text-xs pt-5 pb-12 ">
+      <div className="flex xs:flex-col justify-between items-center gap-x-12 text-xs pt-5 pb-12 ">
         <div className="flex xs:gap-6 xs:flex-col xs:items-center gap-x-10 xs:order-2">
           <span className="xs:order-3">
             Copyright © 2024 Shoplite. All Rights Reserved

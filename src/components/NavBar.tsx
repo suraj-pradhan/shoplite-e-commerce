@@ -8,7 +8,7 @@ import BrandImage from "../../public/images/Brand Logo.png";
 import { usePathname } from "next/navigation";
 
 export default function NavBar() {
-  const CustomLink = ({ href = " ", title = " " }) => {
+  const CustomLink = ({ href = "", title = " " }) => {
     const pathname = usePathname();
     const isActive = pathname === href;
 
@@ -22,7 +22,9 @@ export default function NavBar() {
   return (
     <div className="flex justify-around items-center py-6">
       <nav>
-        <Image src={BrandImage} height={20} alt="Brand Image" />
+        <Link href="/">
+          <Image src={BrandImage} priority height={20} alt="Brand Image" />
+        </Link>
       </nav>
       <span className="flex gap-x-8">
         <CustomLink href="/" title="Home" />
