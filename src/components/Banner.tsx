@@ -8,7 +8,7 @@ import KitchenBannerImage from "../../public/images/Banner Image/Kitchen Banner 
 
 const Banner = () => {
   return (
-    <div className="flex items-center justify-center gap-6 xs:flex-col py-5">
+    <div className="flex items-center justify-center gap-6 xs:flex-col py-5 xs:px-4">
       <div className="relative">
         <div className="font-medium text-3xl xs:text-xl absolute top-8 left-14">
           Living Room
