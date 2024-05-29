@@ -9,7 +9,7 @@ import Banner from "@/components/Banner";
 export default function Home() {
   return (
     <main>
-      {/* <OfferBar /> */}
+      <OfferBar />
       <NavBar />
       <Banner />
       {/* <Values /> */}
