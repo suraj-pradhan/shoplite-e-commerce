@@ -2,8 +2,6 @@
 import React from "react";
 import Link from "next/link";
 import { CartIcon, HamburgerIcon, ProfileIcon, SearchIcon } from "./Icons";
-import Image from "next/image";
-import BrandImage from "../../public/images/Brand Logo.png";
 
 import { usePathname } from "next/navigation";
 
@@ -20,7 +18,7 @@ export default function NavBar() {
   };
 
   return (
-    <div className="flex justify-around items-center py-6">
+    <div className="flex justify-around items-center py-6 sticky top-0 bg-white z-10">
       <nav className="flex items-center gap-3">
         <span className="hidden xs:block">
           <HamburgerIcon />
